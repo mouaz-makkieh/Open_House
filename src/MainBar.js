@@ -1,36 +1,32 @@
 import React from "react";
+import "./App";
+import { Link } from "react-router-dom";
 
 function MaieBar() {
   return (
     <div>
       <header>
-        <div class="container">
-          <img src={"./logo.png"} alt="logo" class="logo" />
+        <div className="container">
+          <img src={"./logo.png"} alt="logo" className="logo" />
           <nav>
             <ul>
               <li>
-                <a href="#Home_1">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">pricing</a>
+                <Link to='/'>Home</Link>
               </li>
 
               <li>
-                <a href="#">Contact</a>
+                <Link to='/about'>About</Link>
+              </li>
+              <li>
+                <Link to="pricing">Pricing</Link>
+              </li>
+              <li>
+                <Link to="contact">Contact</Link>
               </li>
             </ul>
           </nav>
         </div>
       </header>
-      <center>
-        <h3>
-          <a name="Home_1"></a>welcome this website allows you to look for or to
-          share your space if someone need a place to stay
-        </h3>
-      </center>
     </div>
   );
 }
