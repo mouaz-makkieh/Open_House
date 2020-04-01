@@ -18,10 +18,10 @@ function MaieBar() {
                 <Link to='/about'>About</Link>
               </li>
               <li>
-                <Link to="pricing">Pricing</Link>
+                <Link to="/pricing">Pricing</Link>
               </li>
               <li>
-                <Link to="contact">Contact</Link>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </nav>
