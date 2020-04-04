@@ -6,6 +6,8 @@ import Home from "./Home";
 import About from "./About";
 import Pricing from "./Pricing";
 import Contact from "./Contact";
+import Host from './Host'
+import Post from './Post'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <MainBar />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/Host" component={ Host} />
+          <Route path="/Post" component={ Post} />
           <Route path="/about" component={About} />
           <Route path="/pricing" component={Pricing} />
           <Route path="/contact" component={Contact} />
