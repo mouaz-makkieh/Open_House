@@ -58,7 +58,8 @@ class Button extends Component {
         <button type="submit" className="button-1 button_1">
           Button
         </button>
-        <button type="button">Button2</button>
+        <input type='text'></input>
+        <input type='email'></input>
       </form>
     );
   }

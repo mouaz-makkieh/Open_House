@@ -7,7 +7,7 @@ import About from "./About";
 import Pricing from "./Pricing";
 import Contact from "./Contact";
 import Host from './Host'
-import Post from './Post'
+import gest from './gest'
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/Host" component={ Host} />
-          <Route path="/Post" component={ Post} />
+          <Route path="/gest" component={ gest} />
           <Route path="/about" component={About} />
           <Route path="/pricing" component={Pricing} />
           <Route path="/contact" component={Contact} />
