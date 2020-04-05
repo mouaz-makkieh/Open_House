@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
-//import axios from "axios";
+import axios from "axios";
 class Button extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      username: ""
+      username: "",
     };
     this.onSubmit = this.onSubmit.bind(this);
   }
@@ -34,21 +34,23 @@ class Button extends Component {
     // Select one username from the data and console.log it
     // Now that you have a string for the username, set the state
     // username: theNewStringYouHave
-    //axios;
-    //   // get http request
-    //   .get(`http://localhost:5000/Users`)
-    //   // select one username from the data
-    //   .then(response => response.data[0].name)
-    //   // set state username to that name
-    //   // here you are passing it an object { username: "abdo" }
-    //   .then(name =>
-    //     this.setState({
-    //       username: name
-    //     })
-    //   )
-    // .catch(error => {
-    //   console.log(error);
-    // });
+    //var tags = posts.map(post => post.tag);
+
+    // get http request
+    axios
+      .get(`http://localhost:5000/Users`)
+      // select one username from the data
+      .then((response) => response.data[0].name)
+      // set state username to that name
+      // here you are passing it an object { username: "abdo" }
+      .then((name) =>
+        this.setState({
+          username: name,
+        })
+      )
+      .catch((error) => {
+        console.log(error);
+      });
   }
 
   render() {
@@ -58,8 +60,8 @@ class Button extends Component {
         <button type="submit" className="button-1 button_1">
           Button
         </button>
-        <input type='text'></input>
-        <input type='email'></input>
+        <input type="text"></input>
+        <input type="email"></input>
       </form>
     );
   }
