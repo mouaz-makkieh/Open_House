@@ -6,11 +6,12 @@ import Home from "./Home";
 import About from "./About";
 import Pricing from "./Pricing";
 import Contact from "./Contact";
-import Host from './Host'
-import gest from './gest'
+import Host from "./Host";
+import gest from "./gest";
 // all componet is here
-// try push
-// we dont care about youe component 
+
+//  try commit
+// we dont care about youe component
 function App() {
   return (
     <div className="App">
@@ -18,8 +19,8 @@ function App() {
         <MainBar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/Host" component={ Host} />
-          <Route path="/gest" component={ gest} />
+          <Route path="/Host" component={Host} />
+          <Route path="/gest" component={gest} />
           <Route path="/about" component={About} />
           <Route path="/pricing" component={Pricing} />
           <Route path="/contact" component={Contact} />
