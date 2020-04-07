@@ -9,6 +9,8 @@ import Contact from "./Contact";
 import Host from './Host'
 import gest from './gest'
 // all componet is here
+
+// we dont care about youe component 
 function App() {
   return (
     <div className="App">
