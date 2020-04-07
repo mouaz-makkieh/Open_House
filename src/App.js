@@ -8,7 +8,7 @@ import Pricing from "./Pricing";
 import Contact from "./Contact";
 import Host from './Host'
 import gest from './gest'
-
+// all componet is here
 function App() {
   return (
     <div className="App">
