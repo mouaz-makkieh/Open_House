@@ -9,7 +9,6 @@ import Contact from "./Contact";
 import Host from "./Host";
 import gest from "./gest";
 // all componet is here
-
 //  try commit
 // we dont care about youe component
 function App() {
