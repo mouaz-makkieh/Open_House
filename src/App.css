@@ -132,11 +132,12 @@ top: 5px;
 
 
 .gest {
+  transition-duration: 0.4s;
   text-align: center;
   background-color:#9fb5be;
 box-shadow: 0 5px 0 #9fb5be;
 color: white;
-width: 98px;
+width: 106px;
 padding: 1px 1.5px;
 position: relative;
 text-decoration: none;

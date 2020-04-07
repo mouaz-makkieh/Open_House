@@ -10,7 +10,7 @@ function Home() {
       </h1>
       <h1 className="gest">
         {" "}
-        <Link to="/gest">gest</Link>
+        <Link to="/gest">guest</Link>
       </h1>
     </div>
   );

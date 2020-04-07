@@ -5,7 +5,7 @@ import "./App";
 function gest() {
   return (
     <div>
-      <h1>gest page</h1>
+      <h1>guest page</h1>
       {/* <Button /> */}
     </div>
   );
